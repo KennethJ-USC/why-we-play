@@ -1,0 +1,8 @@
+<filter_conditions>
+    <parent_condition>
+        <style_equals_condition TEXT="Author"/>
+    </parent_condition>
+    <any_child_condition>
+        <node_compare_condition VALUE="Completed" COMPARATION_RESULT="0" SUCCEED="true" ITEM="filter_node"/>
+    </any_child_condition>
+</filter_conditions>
